@@ -189,20 +189,6 @@ Illegal, Medical, Extremism, None
 `None` is used when the continuation is likely to remain safe.
 
 
-## Citation
-
-If you find this repository useful, please cite our work:
-
-```bibtex
-@misc{probguard2026,
-  title        = {ProbGuard},
-  author       = {Anonymous},
-  year         = {2026},
-  note         = {Probability-based guardrail for unsafe continuation forecasting}
-}
-```
-
-
 ## License
 
 This project is released for research use. Please check the final repository license before redistribution or commercial use.
