@@ -29,7 +29,7 @@ except Exception:
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-TRAIN_SCRIPT = PROJECT_ROOT / "probguard/train_single_guard_v8_0.py"
+TRAIN_SCRIPT = PROJECT_ROOT / "scripts/train_single_guard_v8_0.py"
 DEFAULT_CHECKPOINT_ROOT = PROJECT_ROOT / "checkpoints"
 DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "outputs/eval"
 DEFAULT_GENERATION_EMBED_WEIGHT = ""

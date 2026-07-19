@@ -17,7 +17,7 @@ from transformers.utils import logging as hf_logging
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-TRAIN_SCRIPT = PROJECT_ROOT / "probguard/train_single_guard_v8_0.py"
+TRAIN_SCRIPT = PROJECT_ROOT / "scripts/train_single_guard_v8_0.py"
 DEFAULT_CHECKPOINT_ROOT = PROJECT_ROOT / "checkpoints"
 DEFAULT_DATA_FILE = PROJECT_ROOT / "examples/calibration_sample.jsonl"
 DEFAULT_QWEN_MODEL = "Qwen/Qwen3-8B"
