@@ -8,7 +8,6 @@ This is the official repository for **ProbGuard**, a probability-based guardrail
 ProbGuard moves safety monitoring from post-hoc response classification to generation-time risk estimation. It reads the target LLM's early next-token probability distributions and predicts whether the ongoing response is likely to become unsafe before harmful content is fully emitted.
 
 - **Model**: https://huggingface.co/hxz-sec/ProbGuard-8b
-- **Model card**: [PROBGUARD_MODEL_CARD.md](PROBGUARD_MODEL_CARD.md)
 
 
 ## Abstract
